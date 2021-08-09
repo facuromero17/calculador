@@ -10,13 +10,10 @@ export class CalculadorComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  resultado: number = 0;
-  num1: number = 0;
-  num2: number = 0;
+  
+  
 
   
 
-  sumar():void {
-    this.resultado = this.num1 + this.num2;
-  }
+
 }
